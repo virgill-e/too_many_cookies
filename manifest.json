@@ -1,0 +1,33 @@
+{
+    "manifest_version": 3,
+    "name": "Too many cookies",
+    "version": "1.0",
+    "description": "Nettoie cookies et cache du site courant.",
+    "permissions": [
+        "cookies",
+        "browsingData",
+        "activeTab",
+        "scripting"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "icons/cookie.png",
+            "32": "icons/cookie.png",
+            "48": "icons/cookie.png",
+            "128": "icons/cookie.png"
+        }
+    },
+    "icons": {
+        "16": "icons/cookie.png",
+        "32": "icons/cookie.png",
+        "48": "icons/cookie.png",
+        "128": "icons/cookie.png"
+    }
+}
