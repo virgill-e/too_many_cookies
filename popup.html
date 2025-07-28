@@ -172,6 +172,28 @@
                 transform: rotate(360deg);
             }
         }
+
+        .coffee-link {
+            margin-top: 15px;
+            text-align: center;
+            padding-top: 15px;
+            border-top: 1px solid #e9ecef;
+        }
+
+        .coffee-link a {
+            color: #7f8c8d;
+            text-decoration: none;
+            font-size: 12px;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            transition: all 0.2s ease;
+        }
+
+        .coffee-link a:hover {
+            color: #f39c12;
+            transform: translateY(-1px);
+        }
     </style>
 </head>
 
@@ -201,6 +223,12 @@
         </div>
 
         <div class="status" id="status"></div>
+
+        <div class="coffee-link">
+            <a href="https://coff.ee/virgill_e" target="_blank" rel="noopener noreferrer">
+                ☕ Buy me a coffee
+            </a>
+        </div>
     </div>
 
     <script src="popup.js"></script>
